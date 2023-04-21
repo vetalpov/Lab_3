@@ -1,0 +1,15 @@
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\bin\Debug\net6.0\Labs_1.exe
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\bin\Debug\net6.0\Labs_1.deps.json
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\bin\Debug\net6.0\Labs_1.runtimeconfig.json
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\bin\Debug\net6.0\Labs_1.dll
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\bin\Debug\net6.0\Labs_1.pdb
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\obj\Debug\net6.0\Labs_1.csproj.AssemblyReference.cache
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\obj\Debug\net6.0\Labs_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\obj\Debug\net6.0\Labs_1.AssemblyInfoInputs.cache
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\obj\Debug\net6.0\Labs_1.AssemblyInfo.cs
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\obj\Debug\net6.0\Labs_1.csproj.CoreCompileInputs.cache
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\obj\Debug\net6.0\Labs_1.dll
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\obj\Debug\net6.0\refint\Labs_1.dll
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\obj\Debug\net6.0\Labs_1.pdb
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\obj\Debug\net6.0\Labs_1.genruntimeconfig.cache
+C:\Users\Користувач\OneDrive\Робочий стіл\Labs_1\Labs_1\obj\Debug\net6.0\ref\Labs_1.dll
