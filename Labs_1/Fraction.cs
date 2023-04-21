@@ -3,8 +3,8 @@ using System.Text.Json;
 
 class Fraction
 {
-    private int numerator;   // чисельник
-    private int denominator; // знаменник
+    private int numerator;   
+    private int denominator; 
 
     public Fraction(int numerator, int denominator)
     {
@@ -12,13 +12,11 @@ class Fraction
         this.denominator = denominator;
     }
 
-    // метод для виведення дробу в текстовий рядок
     public override string ToString()
     {
         return $"{numerator}/{denominator}";
     }
 
-    // метод для додавання до поточного дробу іншого дробу
     public void Add(Fraction other)
     {
         int lcm = LCM(this.denominator, other.denominator);
@@ -27,25 +25,24 @@ class Fraction
         this.denominator = lcm;
     }
 
-    // метод для множення дробу на число типу double
     public void Multiply(double multiplier)
     {
         this.numerator = (int)Math.Round(this.numerator * multiplier);
     }
 
-    // метод для ділення дробу на число типу double
+  
     public void Divide(double divisor)
     {
         this.denominator = (int)Math.Round(this.denominator * divisor);
     }
 
-    // метод для знаходження найменшого спільного кратного
+    
     public int LCM(int a, int b)
     {
         return a * b / GCD(a, b);
     }
 
-    // метод для знаходження найбільшого спільного дільника
+   
     public int GCD(int a, int b)
     {
         while (b != 0)
@@ -59,7 +56,7 @@ class Fraction
 
     public void SaveToJsonFile(string filePath)
     {
-        // Створюємо об'єкт JsonSerializerOptions з параметром відступів для кращої читабельності
+        // Створюємо об'єкт JsonSerializerOptions 
         JsonSerializerOptions options = new JsonSerializerOptions
         {
             WriteIndented = true
