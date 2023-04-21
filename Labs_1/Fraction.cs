@@ -54,29 +54,15 @@ class Fraction
         return a;
     }
 
-    public void SaveToJsonFile(string filePath)
+    public void SaveToFile(string fileName)
     {
-        // Створюємо об'єкт JsonSerializerOptions 
-        JsonSerializerOptions options = new JsonSerializerOptions
-        {
-            WriteIndented = true
-        };
-
-        // Серіалізуємо об'єкт класу в JSON рядок
-        string jsonString = JsonSerializer.Serialize(this, options);
-
-        // Записуємо JSON рядок в файл
-        File.WriteAllText(filePath, jsonString);
+        string jsonString = JsonSerializer.Serialize(this);
+        File.WriteAllText(fileName, jsonString);
     }
 
-    public static Fraction LoadFromJsonFile(string filePath)
+    public static Fraction LoadFromFile(string fileName)
     {
-        // Зчитуємо JSON рядок з файлу
-        string jsonString = File.ReadAllText(filePath);
-
-        // Десеріалізуємо JSON рядок у об'єкт класу
-        Fraction fraction = JsonSerializer.Deserialize<Fraction>(jsonString);
-
-        return fraction;
+        string jsonString = File.ReadAllText(fileName);
+        return JsonSerializer.Deserialize<Fraction>(jsonString);
     }
 }

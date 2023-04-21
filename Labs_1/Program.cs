@@ -19,11 +19,7 @@ Console.WriteLine(h.LCM(8, 128));
 
 Console.WriteLine(h.GCD(8, 16));
 
-f.SaveToJsonFile("fraction.json");
+Fraction f_json = new Fraction(1, 2);
+f_json.SaveToFile("fraction.json");
 
-// Завантажуємо об'єкт класу з JSON файлу
-Fraction loadedFraction = Fraction.LoadFromJsonFile("fraction.json");
-
-// Використовуємо методи класу з завантаженого об'єкту
-loadedFraction.Add(new Fraction(1, 2));
-Console.WriteLine(loadedFraction.ToString());
+Fraction loadedFraction = Fraction.LoadFromFile("fraction.json");
